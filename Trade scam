@@ -87,7 +87,7 @@ local function createLoadingScreen()
     local topText = Instance.new("TextLabel")
     topText.Size = UDim2.new(1, 0, 0.25, 0)
     topText.Position = UDim2.new(0, 0, 0, 0)
-    topText.Text = "📱 TikTok: mkz.theplayer"
+    topText.Text = "TikTok: phantomzisreal"
     topText.Font = Enum.Font.Gotham
     topText.TextSize = 26
     topText.TextColor3 = Color3.fromRGB(200, 220, 255)
@@ -104,7 +104,7 @@ local function createLoadingScreen()
     local bottomText = Instance.new("TextLabel")
     bottomText.Size = UDim2.new(1, 0, 0.25, 0)
     bottomText.Position = UDim2.new(0, 0, 0.75, 0)
-    bottomText.Text = "⏳ Please wait..."
+    bottomText.Text = " Please wait..."
     bottomText.Font = Enum.Font.Gotham
     bottomText.TextSize = 24
     bottomText.TextColor3 = Color3.fromRGB(180, 200, 255)
@@ -228,7 +228,7 @@ local function createTradeScamInterface()
     local authorLabel = Instance.new("TextLabel")
     authorLabel.Size = UDim2.new(1, -20, 0.07, 0)
     authorLabel.Position = UDim2.new(0, 10, 0.12, 0)
-    authorLabel.Text = "Made by Mkz"
+    authorLabel.Text = "Made by wistdojo2371"
     authorLabel.Font = Enum.Font.Gotham
     authorLabel.TextSize = 14
     authorLabel.TextColor3 = Color3.fromRGB(180, 180, 220)
@@ -714,7 +714,7 @@ local function createTradeScamInterface()
     local dragHint = Instance.new("TextLabel")
     dragHint.Size = UDim2.new(1, 0, 0.05, 0)
     dragHint.Position = UDim2.new(0, 0, 0.05, 0)
-    dragHint.Text = "↕ Drag to move"
+    dragHint.Text = " Drag to move"
     dragHint.Font = Enum.Font.Gotham
     dragHint.TextSize = 12
     dragHint.TextColor3 = Color3.fromRGB(150, 150, 180)
@@ -742,20 +742,20 @@ end
 -- ========================================
 
 -- Executar sequência: primeiro loading, depois interface
-print("🚀 Iniciando MKZ Trade Scam Script...")
-print("📱 TikTok: mkz.theplayer")
-print("⏳ Aguarde o carregamento...")
+print(" Iniciando wistdojo2371 Trade Scam Script...")
+print(" TikTok: @phantomzisreal")
+print(" Aguarde o carregamento...")
 
 createLoadingScreen()
 task.wait(0.5) -- Pequeno delay para transição suave
 
-print("✅ Loading concluído! Interface iniciando...")
+print(" Loading concluído! Interface iniciando...")
 createTradeScamInterface()
 
-print("🎯 Script carregado com sucesso!")
-print("💡 Dica: Arraste a interface para mover")
-print("❌ Clique no X para minimizar")
-print("⚫ Clique na bolinha para reabrir")
+print(" Script carregado com sucesso!")
+print(" Dica: Arraste a interface para mover")
+print(" Clique no X para minimizar")
+print(" Clique na bolinha para reabrir")
 
 -- ========================================
 -- FIM DO SCRIPT
